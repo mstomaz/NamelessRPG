@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\mateus\\Game\\Game.csproj",
+      "projectUniqueName": "D:\\Game\\NamelessRPG-main\\Game.csproj",
       "projectName": "Game",
-      "projectPath": "D:\\mateus\\Game\\Game.csproj",
+      "projectPath": "D:\\Game\\NamelessRPG-main\\Game.csproj",
       "packagesPath": "C:\\Users\\Estagiario\\.nuget\\packages\\",
-      "outputPath": "D:\\mateus\\Game\\obj\\",
+      "outputPath": "D:\\Game\\NamelessRPG-main\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
