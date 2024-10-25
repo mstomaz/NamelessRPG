@@ -11,7 +11,7 @@ public class GameMain
 {
     static void Main()
     {
-        /* tests
+        
         Console.Write("Qual é seu nome? ");
         string? playerName = Console.ReadLine().Trim();
 
@@ -30,7 +30,8 @@ public class GameMain
         Console.WriteLine("Choose an ability:");
         int ability = int.Parse(Console.ReadLine().Trim());
 
-        player.Abilities[ability].UseAbility(enemy, player);
-        */
+        player.ReadyAbility(player.Abilities[ability]);
+        player.UseAbility(enemy);
+        
     }
 }

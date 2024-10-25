@@ -1,4 +1,5 @@
 using Game.Entities.Abilities;
+using Game.Entities.Abilities.Base;
 using Game.Entities.Professions;
 using Game.Entities.Professions.Enum;
 using Game.Factory;
@@ -35,7 +36,7 @@ public class Player : Entity
 
     public int XP { get; private set; } = 0;
     public double XPToNextLvl { get; private set; } = 100;
-    
+
     private void AddInitialCharacheristicsPoints()
     {
         Strength += _initialSTR;
@@ -46,19 +47,22 @@ public class Player : Entity
         Charisma += _initialCHA;
         HP += _initialHP;
     }
+
     private int AddInitialCONToHPIncrease()
     {
         return Constitution * _constitutionMultiplier;
     }
+
     public void GainXP(int xp)
     {
         if (Lvl < _maxLvl)
         {
             this.XP += xp;
             if (this.XP >= XPToNextLvl)
-            LevelUp();
+                LevelUp();
         }            
     }
+
     private void LevelUp()
     {
         Lvl++;
@@ -66,22 +70,24 @@ public class Player : Entity
         LearnAbilities();
         XPToNextLvl *= 2 * Profession.ExpModifier;
     }
+
     private void LearnAbilities()
     {
-        var abilities = Profession.GetAbilitiesForLevel(Lvl);
-        foreach (var ability in abilities)
-        {
-            Abilities.Add(new Ability(ability.Name, ability.Action));
-        }
+        var abilities = new AbilityFactory(this).GetAbilitiesForLevel(Lvl, Profession.ProfessionCode);
+        if (abilities.Count > 0)
+            Abilities.AddRange(abilities);
     }
+
     public override void TakeDamage(int damage)
     {
         base.TakeDamage(damage);
     }
+
     public override void ApplyBuff()
     {
         throw new NotImplementedException();
     }
+
     public override void ApplyDebuff()
     {
         throw new NotImplementedException();
