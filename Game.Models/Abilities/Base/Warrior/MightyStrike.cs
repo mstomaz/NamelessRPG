@@ -1,25 +1,23 @@
-﻿using Game.Entities.Professions.Enum;
-using Game.Models.Abilities.Base;
-using Game.Models.Abilities.Enum;
+﻿using Game.Models.Abilities.Enum;
+using Game.Models.Professions.Enum;
 
 namespace Game.Models.Abilities.Base.Warrior;
 
 public class MightyStrike : AbilityBase
 {
-    public MightyStrike(Entity user) : base(
-        name: "Mighty Strike",
+    private double dmgModifier = 1.5;
+
+    public MightyStrike() : base(
+        name: "Ataque Poderoso",
         type: AbilityTypesEnum.Offensive,
         cooldown: 3,
         level: 1,
-        ProfessionsEnum.Warrior)
-    {
-        User = user;
-    }
+        description: "O guerreiro usa toda sua força para desferir um poderoso golpe no inimigo.")
+    { }
 
-    public override void AbilityAction(Entity target)
+    public override void AbilityAction(Entity target, AbilityUsageEventArgs args)
     {
-        double dmgMultiplier = 1.5;
-        int damage = (int)(User!.Damage * dmgMultiplier);
+        int damage = (int)(args.User!.Damage * dmgModifier);
         target.TakeDamage(damage);
     }
 }

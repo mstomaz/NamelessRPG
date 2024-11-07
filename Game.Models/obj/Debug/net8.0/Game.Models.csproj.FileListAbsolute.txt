@@ -1,0 +1,12 @@
+C:\Users\Estagiario\Desktop\Game\Game.Models\bin\Debug\net8.0\Game.Models.deps.json
+C:\Users\Estagiario\Desktop\Game\Game.Models\bin\Debug\net8.0\Game.Models.dll
+C:\Users\Estagiario\Desktop\Game\Game.Models\bin\Debug\net8.0\Game.Models.pdb
+C:\Users\Estagiario\Desktop\Game\Game.Models\obj\Debug\net8.0\Game.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Estagiario\Desktop\Game\Game.Models\obj\Debug\net8.0\Game.Models.AssemblyInfoInputs.cache
+C:\Users\Estagiario\Desktop\Game\Game.Models\obj\Debug\net8.0\Game.Models.AssemblyInfo.cs
+C:\Users\Estagiario\Desktop\Game\Game.Models\obj\Debug\net8.0\Game.Models.csproj.CoreCompileInputs.cache
+C:\Users\Estagiario\Desktop\Game\Game.Models\obj\Debug\net8.0\Game.Models.sourcelink.json
+C:\Users\Estagiario\Desktop\Game\Game.Models\obj\Debug\net8.0\Game.Models.dll
+C:\Users\Estagiario\Desktop\Game\Game.Models\obj\Debug\net8.0\refint\Game.Models.dll
+C:\Users\Estagiario\Desktop\Game\Game.Models\obj\Debug\net8.0\Game.Models.pdb
+C:\Users\Estagiario\Desktop\Game\Game.Models\obj\Debug\net8.0\ref\Game.Models.dll

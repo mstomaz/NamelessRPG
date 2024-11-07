@@ -1,41 +1,32 @@
-﻿using Game.Entities.Abilities.Base.Warrior;
-using Game.Entities.Professions.Enum;
-using Game.Entities;
-using Game.Models.Abilities.Base;
+﻿using Game.Models;
+using Game.Models.Abilities;
+using Game.Models.Abilities.Base.Warrior;
+using Game.Models.Professions.Enum;
 
 namespace Game.Factories;
 
-public class AbilityFactory
+public class AbilityFactory : IAbilityFactory
 {
-    private readonly Entity _entity;
-    private readonly Dictionary<ProfessionsEnum, Dictionary<int, List<AbilityBase>>> _abilitiesLookup = [];
-
-    public AbilityFactory(Entity entity)
-    {
-        _entity = entity;
-        _abilitiesLookup = new()
-        {
+    private readonly Dictionary<ProfessionsEnum, Dictionary<int, List<AbilityBase>>> _abilitiesPerLvlAndProf = 
+        new() {
             { ProfessionsEnum.Warrior,
                 new Dictionary<int, List<AbilityBase>>()
                 {
-                    { 1, new List<AbilityBase>() { new MightyStrike(_entity) } }
+                    { 1, new List<AbilityBase>() { new MightyStrike() } }
                 }
             }
         };
-    }
 
-    public List<AbilityBase> GetAbilitiesForLevel(int level, ProfessionsEnum professionCode)
+    public List<AbilityBase> GetAbilitiesPerLevel(int level, ProfessionsEnum professionCode)
     {
         var abilities = new List<AbilityBase>();
 
-        if (_abilitiesLookup.TryGetValue(professionCode, out var abilitiesByLevel))
+        if (_abilitiesPerLvlAndProf.TryGetValue(professionCode, out var abilitiesByProf))
         {
-            if (abilitiesByLevel.TryGetValue(level, out var abilityFactories))
+            if (abilitiesByProf.TryGetValue(level, out var abilitiesByLvl))
             {
-                foreach (var factory in abilityFactories)
-                {
-                    abilities.Add(factory);
-                }
+                foreach (var ability in abilitiesByLvl)
+                    abilities.Add(ability);
             }
         }
 

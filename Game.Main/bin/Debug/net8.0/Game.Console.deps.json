@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Game.Console/1.0.0": {
+        "dependencies": {
+          "Game.Factories": "1.0.0",
+          "Game.Models": "1.0.0"
+        },
+        "runtime": {
+          "Game.Console.dll": {}
+        }
+      },
+      "Game.Factories/1.0.0": {
+        "dependencies": {
+          "Game.Models": "1.0.0"
+        },
+        "runtime": {
+          "Game.Factories.dll": {}
+        }
+      },
+      "Game.Models/1.0.0": {
+        "runtime": {
+          "Game.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Game.Console/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Game.Factories/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Game.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

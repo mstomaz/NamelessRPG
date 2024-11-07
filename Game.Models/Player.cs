@@ -3,6 +3,7 @@ using Game.Models.Professions;
 namespace Game.Models;
 public class Player : Entity
 {
+    private readonly IAbilityFactory _abilityFactory;
     private const int _initialHP = 10;
     private const int _initialSTR = 1;
     private const int _initialDEX = 1;
@@ -11,15 +12,19 @@ public class Player : Entity
     private const int _initialWIS = 1;
     private const int _initialCHA = 1;
     private const int _maxLvl = 10;
+
     public int CONMultiplier = 5;
 
-    public Player(string name)
+    public Player(string name, Profession profession, IAbilityFactory abilityFactory)
     {
         Name = name;
-        AddInitialCharacheristicsPoints();
+        Profession = profession;
+        _abilityFactory = abilityFactory;
+        InitializePlayer();
     }
 
     private EventHandler? _onCONIncrease;
+    public Action<string>? OnLvlUp;
 
     public override int Constitution
     {
@@ -30,9 +35,15 @@ public class Player : Entity
             _onCONIncrease!(this, EventArgs.Empty);
         }
     }
-
     public int XP { get; private set; } = 0;
-    public double XPToNextLvl { get; private set; } = 100;
+    public double XPToNextLvl { get; private set; } = 1000;
+
+    private void InitializePlayer()
+    {
+        AttachCharacteristicsHandlers(this, EventArgs.Empty);
+        AddInitialCharacheristicsPoints();
+        AddProfessionCharacteristics();
+    }
 
     private void AddInitialCharacheristicsPoints()
     {
@@ -51,6 +62,18 @@ public class Player : Entity
         _onCONIncrease += (sender, args) => HP += _CON * CONMultiplier;
     }
 
+    private void AddProfessionCharacteristics()
+    {
+        Strength += Profession!.Strength;
+        Dexterity += Profession.Dexterity;
+        Constitution += Profession.Constitution;
+        Intelligence += Profession.Intelligence;
+        Wisdom += Profession.Wisdom;
+        Charisma += Profession.Charisma;
+        HP += Profession.HP;
+        LearnAbilities();
+    }
+
     public void GainXP(int xp)
     {
         if (Lvl < _maxLvl)
@@ -64,33 +87,16 @@ public class Player : Entity
     private void LevelUp()
     {
         Lvl++;
-        Console.WriteLine($"Você subiu de nível! Nível {Lvl}!");
+        OnLvlUp!($"Você subiu de nível! Nível {Lvl}.");
         LearnAbilities();
-        XPToNextLvl *= 2 * Profession!.ExpModifier;
+        XPToNextLvl = (Lvl - 1) * Lvl * 500 * Profession!.ExpModifier;
     }
 
     private void LearnAbilities()
     {
-        var abilities = new AbilityFactory(this).GetAbilitiesForLevel(Lvl, Profession.ProfessionCode);
+        var abilities = _abilityFactory.GetAbilitiesPerLevel(Lvl, Profession!.ProfessionCode);
         if (abilities.Count > 0)
             Abilities.AddRange(abilities);
-    }
-
-    public void AssignProfession(Profession profession)
-    {
-        Profession = profession;
-        AggregateProfessionCharacteristics(profession);
-    }
-    private void AggregateProfessionCharacteristics(Profession profession)
-    {
-        Strength += profession.Strength;
-        Dexterity += profession.Dexterity;
-        Constitution += profession.Constitution;
-        Intelligence += profession.Intelligence;
-        Wisdom += profession.Wisdom;
-        Charisma += profession.Charisma;
-        HP += profession.HP;
-        LearnAbilities();
     }
 
     public override void TakeDamage(int damage)

@@ -2,7 +2,7 @@
 
 public enum EnemyDifficultyEnum
 {
-    Easy = 2,
-    Medium = 10,
-    Hard = 20
+    Weak = 2,
+    Normal = 4,
+    Strong = 8
 }

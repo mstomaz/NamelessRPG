@@ -1,7 +1,4 @@
-using Game.Models.Abilities;
 using Game.Models.Professions.Enum;
-using System.ComponentModel;
-using System.Reflection;
 
 namespace Game.Models.Professions;
 
@@ -15,6 +12,6 @@ public class Warrior : Profession
         Dexterity = 1;
         Constitution = 1;
         ProfessionCode = ProfessionsEnum.Warrior;
-        ExpModifier = 0.1;
+        ExpModifier = 1.1;
     }
 }

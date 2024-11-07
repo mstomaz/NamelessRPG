@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\mateus\\Game\\Game.Models\\Game.Models.csproj": {}
+    "C:\\Users\\Estagiario\\Desktop\\Game\\Game.Models\\Game.Models.csproj": {}
   },
   "projects": {
-    "D:\\mateus\\Game\\Game.Models\\Game.Models.csproj": {
+    "C:\\Users\\Estagiario\\Desktop\\Game\\Game.Models\\Game.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\mateus\\Game\\Game.Models\\Game.Models.csproj",
+        "projectUniqueName": "C:\\Users\\Estagiario\\Desktop\\Game\\Game.Models\\Game.Models.csproj",
         "projectName": "Game.Models",
-        "projectPath": "D:\\mateus\\Game\\Game.Models\\Game.Models.csproj",
+        "projectPath": "C:\\Users\\Estagiario\\Desktop\\Game\\Game.Models\\Game.Models.csproj",
         "packagesPath": "C:\\Users\\Estagiario\\.nuget\\packages\\",
-        "outputPath": "D:\\mateus\\Game\\Game.Models\\obj\\",
+        "outputPath": "C:\\Users\\Estagiario\\Desktop\\Game\\Game.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

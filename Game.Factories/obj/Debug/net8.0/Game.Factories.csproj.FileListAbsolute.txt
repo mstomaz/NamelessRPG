@@ -1,0 +1,16 @@
+C:\Users\Estagiario\Desktop\Game\Game.Factories\bin\Debug\net8.0\Game.Factories.deps.json
+C:\Users\Estagiario\Desktop\Game\Game.Factories\bin\Debug\net8.0\Game.Factories.dll
+C:\Users\Estagiario\Desktop\Game\Game.Factories\bin\Debug\net8.0\Game.Factories.pdb
+C:\Users\Estagiario\Desktop\Game\Game.Factories\bin\Debug\net8.0\Game.Models.dll
+C:\Users\Estagiario\Desktop\Game\Game.Factories\bin\Debug\net8.0\Game.Models.pdb
+C:\Users\Estagiario\Desktop\Game\Game.Factories\obj\Debug\net8.0\Game.Factories.csproj.AssemblyReference.cache
+C:\Users\Estagiario\Desktop\Game\Game.Factories\obj\Debug\net8.0\Game.Factories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Estagiario\Desktop\Game\Game.Factories\obj\Debug\net8.0\Game.Factories.AssemblyInfoInputs.cache
+C:\Users\Estagiario\Desktop\Game\Game.Factories\obj\Debug\net8.0\Game.Factories.AssemblyInfo.cs
+C:\Users\Estagiario\Desktop\Game\Game.Factories\obj\Debug\net8.0\Game.Factories.csproj.CoreCompileInputs.cache
+C:\Users\Estagiario\Desktop\Game\Game.Factories\obj\Debug\net8.0\Game.Factories.sourcelink.json
+C:\Users\Estagiario\Desktop\Game\Game.Factories\obj\Debug\net8.0\Game.Fac.699DD2E2.Up2Date
+C:\Users\Estagiario\Desktop\Game\Game.Factories\obj\Debug\net8.0\Game.Factories.dll
+C:\Users\Estagiario\Desktop\Game\Game.Factories\obj\Debug\net8.0\refint\Game.Factories.dll
+C:\Users\Estagiario\Desktop\Game\Game.Factories\obj\Debug\net8.0\Game.Factories.pdb
+C:\Users\Estagiario\Desktop\Game\Game.Factories\obj\Debug\net8.0\ref\Game.Factories.dll

@@ -1,27 +1,22 @@
-﻿using Game.Models.Abilities.Base;
+﻿using Game.Models.Abilities;
 using Game.Models.Professions;
 
 namespace Game.Models;
 
-public abstract class Entity : Charactheristics
+public abstract class Entity : Charactheristics, IActionableObject
 {
     protected int _damage;
 
     protected EventHandler? _onSTRIncrease;
+    public event DamageSuffered<Entity>? OnDmgTaken;
 
-    /// <summary>
-    /// Represents the ability usage method signature.
-    /// </summary>
-    /// <param name="target">The target of the ability.</param>
-    public delegate void AbilityUsage(Entity target);
-
-    public AbilityUsage Action { get; protected set; } = default!;
+    public AbilityUsage? Action { get; protected set; }
     public override int Strength
     {
-        get => Strength;
+        get => _STR;
         set
         {
-            Strength = value;
+            _STR = value;
             _onSTRIncrease!(this, EventArgs.Empty);
         }
     }
@@ -41,7 +36,7 @@ public abstract class Entity : Charactheristics
     public virtual void TakeDamage(int damage)
     {
         HP -= damage;
-        Console.WriteLine($"{Name} takes {damage} damage and is left with {_HP} HP!");
+        OnDmgTaken!(this, damage);
     }
     public abstract void ApplyBuff();
     public abstract void ApplyDebuff();
@@ -50,8 +45,8 @@ public abstract class Entity : Charactheristics
     {
         Action = ability.AbilityAction;
     }
-    public void UseAbility(Entity target)
+    public void UseAbility(Entity target, AbilityUsageEventArgs args)
     {
-        Action(target);
+        Action!(target, args);
     }
 }

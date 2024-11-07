@@ -1,0 +1,120 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Estagiario\\Desktop\\Game\\Game.Main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0B6ABC98-7FF7-4733-8305-0E0DFCAA3F69}|..\\Game.Models\\Game.Models.csproj|c:\\users\\estagiario\\desktop\\game\\game.models\\enemies\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{246F95FF-14CD-4DE2-93E6-4F018EEFBDFF}|Game.Main.csproj|c:\\users\\estagiario\\desktop\\game\\game.main\\gamemain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{246F95FF-14CD-4DE2-93E6-4F018EEFBDFF}|Game.Main.csproj|solutionrelative:gamemain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B6ABC98-7FF7-4733-8305-0E0DFCAA3F69}|..\\Game.Models\\Game.Models.csproj|c:\\users\\estagiario\\desktop\\game\\game.models\\professions\\profession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B6ABC98-7FF7-4733-8305-0E0DFCAA3F69}|..\\Game.Models\\Game.Models.csproj|c:\\users\\estagiario\\desktop\\game\\game.models\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B6ABC98-7FF7-4733-8305-0E0DFCAA3F69}|..\\Game.Models\\Game.Models.csproj|c:\\users\\estagiario\\desktop\\game\\game.models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8DE2800-6057-420A-8770-04D98CD3DD6F}|..\\Game.Factories\\Game.Factories.csproj|c:\\users\\estagiario\\desktop\\game\\game.factories\\playerfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\Users\\Estagiario\\Desktop\\Game\\Game.Models\\Enemies\\Enemy.cs",
+              "RelativeDocumentMoniker": "..\\Game.Models\\Enemies\\Enemy.cs",
+              "ToolTip": "C:\\Users\\Estagiario\\Desktop\\Game\\Game.Models\\Enemies\\Enemy.cs",
+              "RelativeToolTip": "..\\Game.Models\\Enemies\\Enemy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T18:31:16.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Profession.cs",
+              "DocumentMoniker": "C:\\Users\\Estagiario\\Desktop\\Game\\Game.Models\\Professions\\Profession.cs",
+              "RelativeDocumentMoniker": "..\\Game.Models\\Professions\\Profession.cs",
+              "ToolTip": "C:\\Users\\Estagiario\\Desktop\\Game\\Game.Models\\Professions\\Profession.cs",
+              "RelativeToolTip": "..\\Game.Models\\Professions\\Profession.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T18:31:14.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\Estagiario\\Desktop\\Game\\Game.Models\\Player.cs",
+              "RelativeDocumentMoniker": "..\\Game.Models\\Player.cs",
+              "ToolTip": "C:\\Users\\Estagiario\\Desktop\\Game\\Game.Models\\Player.cs",
+              "RelativeToolTip": "..\\Game.Models\\Player.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAYwCYAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T14:27:36.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Entity.cs",
+              "DocumentMoniker": "C:\\Users\\Estagiario\\Desktop\\Game\\Game.Models\\Entity.cs",
+              "RelativeDocumentMoniker": "..\\Game.Models\\Entity.cs",
+              "ToolTip": "C:\\Users\\Estagiario\\Desktop\\Game\\Game.Models\\Entity.cs",
+              "RelativeToolTip": "..\\Game.Models\\Entity.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAiwB0AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T13:59:17.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlayerFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Estagiario\\Desktop\\Game\\Game.Factories\\PlayerFactory.cs",
+              "RelativeDocumentMoniker": "..\\Game.Factories\\PlayerFactory.cs",
+              "ToolTip": "C:\\Users\\Estagiario\\Desktop\\Game\\Game.Factories\\PlayerFactory.cs",
+              "RelativeToolTip": "..\\Game.Factories\\PlayerFactory.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T14:45:52.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameMain.cs",
+              "DocumentMoniker": "C:\\Users\\Estagiario\\Desktop\\Game\\Game.Main\\GameMain.cs",
+              "RelativeDocumentMoniker": "GameMain.cs",
+              "ToolTip": "C:\\Users\\Estagiario\\Desktop\\Game\\Game.Main\\GameMain.cs",
+              "RelativeToolTip": "GameMain.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAAAkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T15:12:58.743Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
