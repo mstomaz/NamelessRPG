@@ -24,6 +24,16 @@
         "runtime": {
           "bin/placeholder/Game.Models.dll": {}
         }
+      },
+      "Game.UI/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Game.UI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Game.UI.dll": {}
+        }
       }
     }
   },
@@ -37,12 +47,18 @@
       "type": "project",
       "path": "../Game.Models/Game.Models.csproj",
       "msbuildProject": "../Game.Models/Game.Models.csproj"
+    },
+    "Game.UI/1.0.0": {
+      "type": "project",
+      "path": "../Game.UI/Game.UI.csproj",
+      "msbuildProject": "../Game.UI/Game.UI.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Game.Factories >= 1.0.0",
-      "Game.Models >= 1.0.0"
+      "Game.Models >= 1.0.0",
+      "Game.UI >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -83,6 +99,9 @@
             },
             "C:\\Users\\Estagiario\\Desktop\\Game\\Game.Models\\Game.Models.csproj": {
               "projectPath": "C:\\Users\\Estagiario\\Desktop\\Game\\Game.Models\\Game.Models.csproj"
+            },
+            "C:\\Users\\Estagiario\\Desktop\\Game\\Game.UI\\Game.UI.csproj": {
+              "projectPath": "C:\\Users\\Estagiario\\Desktop\\Game\\Game.UI\\Game.UI.csproj"
             }
           }
         }

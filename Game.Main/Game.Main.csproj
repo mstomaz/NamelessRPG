@@ -10,6 +10,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Game.Factories\Game.Factories.csproj" />
     <ProjectReference Include="..\Game.Models\Game.Models.csproj" />
+    <ProjectReference Include="..\Game.UI\Game.UI.csproj" />
   </ItemGroup>
 
 </Project>

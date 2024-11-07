@@ -9,7 +9,8 @@
       "Game.Main/1.0.0": {
         "dependencies": {
           "Game.Factories": "1.0.0",
-          "Game.Models": "1.0.0"
+          "Game.Models": "1.0.0",
+          "Game.UI": "1.0.0"
         },
         "runtime": {
           "Game.Main.dll": {}
@@ -27,6 +28,11 @@
         "runtime": {
           "Game.Models.dll": {}
         }
+      },
+      "Game.UI/1.0.0": {
+        "runtime": {
+          "Game.UI.dll": {}
+        }
       }
     }
   },
@@ -42,6 +48,11 @@
       "sha512": ""
     },
     "Game.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Game.UI/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -3,11 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\Estagiario\\Desktop\\Game\\Game.Main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0B6ABC98-7FF7-4733-8305-0E0DFCAA3F69}|..\\Game.Models\\Game.Models.csproj|c:\\users\\estagiario\\desktop\\game\\game.models\\enemies\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{23DF774D-FEA2-498A-AA6C-6F224C3E0E4A}|..\\Game.UI\\Game.UI.csproj|c:\\users\\estagiario\\desktop\\game\\game.ui\\mainuimethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23DF774D-FEA2-498A-AA6C-6F224C3E0E4A}|..\\Game.UI\\Game.UI.csproj|c:\\users\\estagiario\\desktop\\game\\game.ui\\playercreationui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{246F95FF-14CD-4DE2-93E6-4F018EEFBDFF}|Game.Main.csproj|c:\\users\\estagiario\\desktop\\game\\game.main\\gamemain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{246F95FF-14CD-4DE2-93E6-4F018EEFBDFF}|Game.Main.csproj|solutionrelative:gamemain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23DF774D-FEA2-498A-AA6C-6F224C3E0E4A}|..\\Game.UI\\Game.UI.csproj|c:\\users\\estagiario\\desktop\\game\\game.ui\\gameinitializaionui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B6ABC98-7FF7-4733-8305-0E0DFCAA3F69}|..\\Game.Models\\Game.Models.csproj|c:\\users\\estagiario\\desktop\\game\\game.models\\charactheristics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B6ABC98-7FF7-4733-8305-0E0DFCAA3F69}|..\\Game.Models\\Game.Models.csproj|c:\\users\\estagiario\\desktop\\game\\game.models\\enemies\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0B6ABC98-7FF7-4733-8305-0E0DFCAA3F69}|..\\Game.Models\\Game.Models.csproj|c:\\users\\estagiario\\desktop\\game\\game.models\\professions\\profession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -29,21 +41,73 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainUIMethods.cs",
+              "DocumentMoniker": "C:\\Users\\Estagiario\\Desktop\\Game\\Game.UI\\MainUIMethods.cs",
+              "RelativeDocumentMoniker": "..\\Game.UI\\MainUIMethods.cs",
+              "ToolTip": "C:\\Users\\Estagiario\\Desktop\\Game\\Game.UI\\MainUIMethods.cs",
+              "RelativeToolTip": "..\\Game.UI\\MainUIMethods.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T21:14:59.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerCreationUI.cs",
+              "DocumentMoniker": "C:\\Users\\Estagiario\\Desktop\\Game\\Game.UI\\PlayerCreationUI.cs",
+              "RelativeDocumentMoniker": "..\\Game.UI\\PlayerCreationUI.cs",
+              "ToolTip": "C:\\Users\\Estagiario\\Desktop\\Game\\Game.UI\\PlayerCreationUI.cs",
+              "RelativeToolTip": "..\\Game.UI\\PlayerCreationUI.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T21:13:07.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameInitializaionUI.cs",
+              "DocumentMoniker": "C:\\Users\\Estagiario\\Desktop\\Game\\Game.UI\\GameInitializaionUI.cs",
+              "RelativeDocumentMoniker": "..\\Game.UI\\GameInitializaionUI.cs",
+              "ToolTip": "C:\\Users\\Estagiario\\Desktop\\Game\\Game.UI\\GameInitializaionUI.cs",
+              "RelativeToolTip": "..\\Game.UI\\GameInitializaionUI.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T21:12:34.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Charactheristics.cs",
+              "DocumentMoniker": "C:\\Users\\Estagiario\\Desktop\\Game\\Game.Models\\Charactheristics.cs",
+              "RelativeDocumentMoniker": "..\\Game.Models\\Charactheristics.cs",
+              "ToolTip": "C:\\Users\\Estagiario\\Desktop\\Game\\Game.Models\\Charactheristics.cs",
+              "RelativeToolTip": "..\\Game.Models\\Charactheristics.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T21:09:51.835Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Enemy.cs",
               "DocumentMoniker": "C:\\Users\\Estagiario\\Desktop\\Game\\Game.Models\\Enemies\\Enemy.cs",
               "RelativeDocumentMoniker": "..\\Game.Models\\Enemies\\Enemy.cs",
               "ToolTip": "C:\\Users\\Estagiario\\Desktop\\Game\\Game.Models\\Enemies\\Enemy.cs",
               "RelativeToolTip": "..\\Game.Models\\Enemies\\Enemy.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAdAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-07T18:31:16.846Z",
               "EditorCaption": ""
@@ -51,6 +115,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "GameMain.cs",
+              "DocumentMoniker": "C:\\Users\\Estagiario\\Desktop\\Game\\Game.Main\\GameMain.cs",
+              "RelativeDocumentMoniker": "GameMain.cs",
+              "ToolTip": "C:\\Users\\Estagiario\\Desktop\\Game\\Game.Main\\GameMain.cs",
+              "RelativeToolTip": "GameMain.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T15:12:58.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Profession.cs",
               "DocumentMoniker": "C:\\Users\\Estagiario\\Desktop\\Game\\Game.Models\\Professions\\Profession.cs",
               "RelativeDocumentMoniker": "..\\Game.Models\\Professions\\Profession.cs",
@@ -63,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\Estagiario\\Desktop\\Game\\Game.Models\\Player.cs",
               "RelativeDocumentMoniker": "..\\Game.Models\\Player.cs",
@@ -76,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Entity.cs",
               "DocumentMoniker": "C:\\Users\\Estagiario\\Desktop\\Game\\Game.Models\\Entity.cs",
               "RelativeDocumentMoniker": "..\\Game.Models\\Entity.cs",
@@ -89,7 +166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "PlayerFactory.cs",
               "DocumentMoniker": "C:\\Users\\Estagiario\\Desktop\\Game\\Game.Factories\\PlayerFactory.cs",
               "RelativeDocumentMoniker": "..\\Game.Factories\\PlayerFactory.cs",
@@ -97,19 +174,7 @@
               "RelativeToolTip": "..\\Game.Factories\\PlayerFactory.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAQwBgAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T14:45:52.918Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GameMain.cs",
-              "DocumentMoniker": "C:\\Users\\Estagiario\\Desktop\\Game\\Game.Main\\GameMain.cs",
-              "RelativeDocumentMoniker": "GameMain.cs",
-              "ToolTip": "C:\\Users\\Estagiario\\Desktop\\Game\\Game.Main\\GameMain.cs",
-              "RelativeToolTip": "GameMain.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAAAkAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T15:12:58.743Z",
+              "WhenOpened": "2024-11-07T14:45:52.918Z",
               "EditorCaption": ""
             }
           ]

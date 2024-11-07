@@ -1,0 +1,12 @@
+C:\Users\Estagiario\Desktop\Game\Game.UI\bin\Debug\net8.0\Game.UI.deps.json
+C:\Users\Estagiario\Desktop\Game\Game.UI\bin\Debug\net8.0\Game.UI.dll
+C:\Users\Estagiario\Desktop\Game\Game.UI\bin\Debug\net8.0\Game.UI.pdb
+C:\Users\Estagiario\Desktop\Game\Game.UI\obj\Debug\net8.0\Game.UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Estagiario\Desktop\Game\Game.UI\obj\Debug\net8.0\Game.UI.AssemblyInfoInputs.cache
+C:\Users\Estagiario\Desktop\Game\Game.UI\obj\Debug\net8.0\Game.UI.AssemblyInfo.cs
+C:\Users\Estagiario\Desktop\Game\Game.UI\obj\Debug\net8.0\Game.UI.csproj.CoreCompileInputs.cache
+C:\Users\Estagiario\Desktop\Game\Game.UI\obj\Debug\net8.0\Game.UI.sourcelink.json
+C:\Users\Estagiario\Desktop\Game\Game.UI\obj\Debug\net8.0\Game.UI.dll
+C:\Users\Estagiario\Desktop\Game\Game.UI\obj\Debug\net8.0\refint\Game.UI.dll
+C:\Users\Estagiario\Desktop\Game\Game.UI\obj\Debug\net8.0\Game.UI.pdb
+C:\Users\Estagiario\Desktop\Game\Game.UI\obj\Debug\net8.0\ref\Game.UI.dll

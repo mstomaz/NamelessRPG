@@ -19,3 +19,5 @@ C:\Users\Estagiario\Desktop\Game\Game.Main\obj\Debug\net8.0\refint\Game.Main.dll
 C:\Users\Estagiario\Desktop\Game\Game.Main\obj\Debug\net8.0\Game.Main.pdb
 C:\Users\Estagiario\Desktop\Game\Game.Main\obj\Debug\net8.0\Game.Main.genruntimeconfig.cache
 C:\Users\Estagiario\Desktop\Game\Game.Main\obj\Debug\net8.0\ref\Game.Main.dll
+C:\Users\Estagiario\Desktop\Game\Game.Main\bin\Debug\net8.0\Game.UI.dll
+C:\Users\Estagiario\Desktop\Game\Game.Main\bin\Debug\net8.0\Game.UI.pdb
